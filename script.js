@@ -375,7 +375,7 @@ for (let i = 0; i < contain_title_text.length; i++) {
 let fas = document.querySelectorAll('.fas');
 var window_width = window.innerWidth;
 
-if (window_width <= 600) {
+if (window_width <= 1200) {
     for (let i = 0; i < fas.length; i++) {
         fas[i].classList.remove("fa-2x");
         fas[i].classList.add("fa-1x");

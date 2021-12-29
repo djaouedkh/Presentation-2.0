@@ -1261,7 +1261,7 @@ ul {
     }
     100% {
       box-shadow: none;
-      transform: scale3d(1, 1, 1) translate3d(-25vmax, 210px, 0);
+      transform: scale3d(1, 1, 1) translate3d(-25vmax, 250px, 0);
     }
   }
 }
