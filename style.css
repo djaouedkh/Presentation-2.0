@@ -826,7 +826,7 @@ ul {
   display: none;
   
 }
-@media screen and (max-width:860px){
+@media screen and (max-width:1030px){
   .contain_profile img{
     height: 52vmax;
     position: absolute;
@@ -983,7 +983,7 @@ ul {
   position: absolute;
   right: -14em;
   width: 200px;
-  height: 200px;
+  height: 264px;
   overflow: hidden;
 }
 .tech{
@@ -1204,6 +1204,11 @@ ul {
       transform: scale3d(1, 1, 1) translate3d(-25vmax, 180px, 0);
     }
   }
+}
+@media screen and (max-width:1200px){
+  .contain_title_text {
+    height: 230px;
+}
 }
 /* --------- Mobile ----------- */
 @media screen and (max-width:600px){
